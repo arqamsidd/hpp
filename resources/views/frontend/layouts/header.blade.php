@@ -237,8 +237,9 @@
               </div>
               <div class="col-md-4 head-col-2 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.0s">
                 <div class="head-btn-st">
+                  <a href="javascript:;" class="get-started popup-btn-beat btn-ani white">Beat The Price</a>
                   <a href="https://wa.me/14155781759" target="_blank"><img src="{{cdn('frontend')}}/images/hd-call-icon1.jpg" alt="half price packaging whatsapp logo"></a>
-                  <a href="javascript:;" class="popup-btn-req btn-ani white"><img src="{{cdn('frontend')}}/images/hd-call-icon3.png" alt="half price packaging book a call logo"></a>
+                  <a href="javascript:;" class="popup-btn-req white"><img src="{{cdn('frontend')}}/images/hd-call-icon3.png" alt="half price packaging book a call logo"></a>
                   <a href="javascript:;" class="get-started popup-btn btn-ani white">Get A Quote</a>
                 </div>
                 <div class="head-link-num-em">
