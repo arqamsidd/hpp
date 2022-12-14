@@ -38,7 +38,7 @@
         overflow-y: scroll;
         font-family: 'Poppins';
     }
-    .ftr_form_st_mm{
+    .popupform-main-new-popup-beat .ftr_form_st_mm{
         width:50% !important;
         margin:24px auto;
     }
@@ -157,6 +157,8 @@
       </div>
     </div> @csrf
     <div class="cat-bx-txt">
+    <a href="javascript:;" style="right: 369px !important;
+    top: 22px; !important" class="close-btn ta-center">X</a>
       <h4>Beat The Price</h4>
     </div>
     <div class="cat-form-2">
