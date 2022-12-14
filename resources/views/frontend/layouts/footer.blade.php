@@ -284,6 +284,23 @@
       });
     });
 
+    $('.popup-btn-beat').on('click', function() {
+      $('.popupform-main-new-popup-beat').addClass('active');
+      $('body').addClass('o-hidden');
+      $('.overlay-bg').fadeIn(500);
+      $('.close-btn').on('click', function() {
+        $('.popupform-main-new-popup-beat').removeClass('active');
+        $('body').removeClass('o-hidden');
+        $('.overlay-bg').fadeOut(500);
+      });
+      $('.overlay-bg').click(function() {
+        $('popupform-main-new-popup-beat').removeClass('active');
+        $('body').removeClass('o-hidden');
+        $('.overlay-bg').fadeOut(500);
+
+      });
+    });
+
     $(".fancybox").fancybox();
     /*
     $(".auto_parts_products_slider2").slick({
@@ -398,6 +415,7 @@
 
 @include("frontend/includes/autopop-up-3")
 @include("frontend/includes/requestpop-up-3")
+@include("frontend/includes/beatpop-up")
 
 @if(session()->get('popup'))
 
