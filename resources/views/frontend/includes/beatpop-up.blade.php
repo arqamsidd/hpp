@@ -158,7 +158,7 @@
     </div> @csrf
     <div class="cat-bx-txt">
     <a href="javascript:;" style="right: 369px !important;
-    top: 22px; !important" class="close-btn ta-center">X</a>
+    top: 13px !important;" class="close-btn ta-center">X</a>
       <h4>Beat The Price</h4>
     </div>
     <div class="cat-form-2">
