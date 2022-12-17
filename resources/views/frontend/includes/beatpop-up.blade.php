@@ -23,7 +23,29 @@
         color:#fff;
         font-weight:300
     }
+    .popupform-main-new-popup-beat .close-btn {
+      right: 24% !important;
+      top: 3% !important;
+    }
 
+    .beat-price-content{
+      margin: 12px 24px 2px 22px;
+      padding: 4px 2px 4px 2px;
+      text-align: justify;
+      line-height: 1.4;
+      font-family: 'Poppins';
+    }
+    .best-price{
+      font-size: 15px;
+      color: #002025;
+      font-weight: 400;
+    }
+    .step2{
+      margin-top: 12px;
+    }
+    phone-step2{
+      margin-top: 2px;
+    }
     .popupform-main-new-popup-beat{
         position:fixed;
         background:0 0/cover no-repeat #000c;
@@ -157,18 +179,18 @@
       </div>
     </div> @csrf
     <div class="cat-bx-txt">
-    <a href="javascript:;" style="right: 369px !important;
-    top: 13px !important;" class="close-btn ta-center">X</a>
+    <a href="javascript:;"  class="close-btn ta-center">X</a>
       <h4>Beat The Price</h4>
     </div>
+    <div class="beat-price-content">
+      <p class="best-price">
+          Are you looking for a better price? <b style="color: #900109;">Half Price Packaging</b> helps you beat any price in the world! With our <b>LOCAL PRINTING</b> and <b>GLOBAL SOURCING</b> matched with Dedicated Packaging Experts and Efficient Logistics team, will create the <b>BEST DEAL</b> for you. An offer you just can’t Refuse!
+      </p>
+    </div>
     <div class="cat-form-2">
-      <ul class="nav" role="tablist">
-        <li role="presentation" class="active"><a href="#one" aria-controls="home" role="tab" data-toggle="tab">Step 1</a></li>
-        <li role="presentation"><a href="#two" id="two-step-toggle-second" aria-controls="profile" role="tab" data-toggle="tab">Step 2</a></li>
-      </ul>
       <div class="tab-content">
         <!-- Step 1 -->
-        <div role="tabpanel" class="tab-pane active" id="one">
+        <div role="tabpanel" class="tab-pane active">
           <div class="row">
             <div class="col-md-12 form-group">
               <div class="breif-box1 breif-box5">
@@ -342,32 +364,24 @@
               <label for="exampleFormControlFile1">Upload your Artwork or Reference Image</label>
               <input type='file' name='theFile' id='theFile5345766000000562027' class="form-control-file" multiple>
             </div>
-            <div class="col-sm-12">
-              <div class="chk-col-custom">
-                <a href="#two" aria-controls="profile" role="tab" id="two-step-proceed" data-toggle="tab">
-                  <input type="button" value="Proceed" class="wpcf7-form-control wpcf7-submit btn btn-primary cat-form-btn-st two-step-btn" aria-controls="profile" role="tab" data-toggle="tab">
-                </a>
-
-              </div>
-            </div>
           </div>
         </div>
         <!-- Step 2 -->
-        <div role="tabpanel" class="tab-pane" id="two">
+        <div role="tabpanel" class="tab-pane step2 active">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <input type='text' id='Last_Name' name='Last Name' maxlength='80' class="form-control" placeholder="Full Name" required="">
               </div>
             </div>
-            <div class="col-md-6 email-col-fm-bx-pd">
+            <div style="margin-left: -15px !important;" class="col-md-6 email-col-fm-bx-pd">
               <div class="form-group">
                 <input type='text' ftype='email' id='Email' name='Email' maxlength='100' class="form-control" placeholder="Email Address" required="">
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 phone-step2">
               <div class="form-group">
                 <input type='text' id='Phone' name='Phone' maxlength='30' class="form-control" data-validation="Phone Number" placeholder="Phone" required="">
               </div>
@@ -382,7 +396,7 @@
             <div class="col-sm-12">
               <div class="chk-col-custom">
                 <!--<input type='submit' id='formsubmit' value="Order Now & Receive a Dieline Template" class="wpcf7-form-control wpcf7-submit btn btn-primary cat-form-btn-st two-step-btn"> -->
-                <input type='submit' id='formsubmit' class='formsubmit wpcf7-form-control wpcf7-submit btn btn-primary cat-form-btn-st two-step-btn' value='Order Now & Receive a Dieline Template' title='Submit'>
+                <input type='submit' id='formsubmit' class='formsubmit wpcf7-form-control wpcf7-submit btn btn-primary cat-form-btn-st two-step-btn' value='Submit' title='Submit'>
               </div>
             </div>
           </div>
@@ -391,19 +405,6 @@
     </div>
     <div class="wpcf7-response-output" aria-hidden="true"></div>
   </form>
-  <div class="tuck-maon-box wow fadeInRight">
-    <div class="tuck-main">
-      <h3>Shipping:</h3>
-      <p>Free shipping for deliveries in the USA, UK, Canada, and Australia.</p>
-    </div>
-    <div class="tuck-main">
-      <h3>Payments:</h3> <img loading="lazy" src="{{cdn('frontend')}}/images/payment-1.png" alt="half price packaging payment method icons">
-    </div>
-    <div class="tuck-main">
-      <h3>Guarantee:</h3>
-      <p>24/7 Customer Support, Fast Turnaround, Unique Design</p>
-    </div>
-  </div>
 </div>
 
 </div>

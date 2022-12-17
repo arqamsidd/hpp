@@ -677,8 +677,8 @@ ul.process-list-thnk {flex-wrap: wrap;}
 
 	.why-hd-txt h2 {
 		font-size: 19px;
-		font-weight: 600
-        text-align: center !important;
+		font-weight: 600;
+    text-align: center !important;
 	}
 
 	.r-c-before:before {

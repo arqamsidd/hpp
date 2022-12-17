@@ -11,12 +11,13 @@
 @endsection
 @section('content')
 <img style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+" alt="half price packaging home page">
-<section class="main-banner">
+<section class="main-banner test">
   <div class="pic-wrapper">
     <figure class="pic-1" ></figure>
     <!--<figure class="pic-2"></figure>
     <figure class="pic-3"></figure>
     <figure class="pic-4"></figure>-->
+    <a href="javascript:;" class="get-started popup-btn-beat btn-ani white beat-the-price-btn">Beat The Price</a>
   </div>
   <div class="container home-slider">
     <div class="row">
