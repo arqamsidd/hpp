@@ -503,7 +503,7 @@
     function collection_image() {
 
       $('.collection_image .dropify-preview').show();
-      $('.collection_image').find('span').html('<img src="<?= !empty($record['cta_image_path']) ? $record['cta_image_path'] : !empty($subcategory_cta[0]->cta_image_path) ? $subcategory_cta[0]->cta_image_path : ''?>">');
+      $('.collection_image').find('span').html('<img src="<?= !empty($record['cta_image_path']) ? $record['cta_image_path'] : (!empty($subcategory_cta[0]->cta_image_path) ? $subcategory_cta[0]->cta_image_path : '')?>">');
 
     }
 
