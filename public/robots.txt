@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /admin/login
+Disallow: /images
+Disallow: /blog?page=
+Disallow: /blog/admin/sign-up
+Disallow: /blog/admin/sign-in
+Sitemap: https://www.halfpricepackaging.com/sitemap.xml
